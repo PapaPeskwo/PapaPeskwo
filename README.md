@@ -2,8 +2,8 @@
 Future DevOps Engineer
 
 ### Projects
-[Book-reading dictionary](https://github.com/PapaPeskwo/dictionary)
-[The Gap Effect](https://github.com/PapaPeskwo/gap-effect)
+- [Book-reading dictionary](https://github.com/PapaPeskwo/dictionary)
+- [The Gap Effect](https://github.com/PapaPeskwo/gap-effect)
 
 ## Certificates
 ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
