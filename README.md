@@ -4,6 +4,7 @@ I'm Tomislav, a DevOps engineer student who's still trying to figure out what De
 ## Projects
 - [Book-reading Dictionary](https://github.com/PapaPeskwo/dictionary)
 - [The Gap Effect](https://github.com/PapaPeskwo/gap-effect)
+- [Comparing Hashes - SHA256 Checksum](https://github.com/PapaPeskwo/comparing-hashes)
 
 ## Certificates
 ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
