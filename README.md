@@ -8,7 +8,7 @@ I'm Tomislav, a DevOps engineer student who's still trying to figure out what De
 | [The Gap Effect](https://github.com/PapaPeskwo/gap-effect) | A timer used while studying. |
 | [Comparing Hashes](https://github.com/PapaPeskwo/comparing-hashes) | Comparing Hashes - SHA-256 Checksum. |
 | [Content Comparer](https://github.com/PapaPeskwo/content-comparer) | Compares two folders and outputs the difference. |
-| [App Downloader](https://github.com/PapaPeskwo/app-downloader) | Budget Ninite. | 
+| [App Downloader](https://github.com/PapaPeskwo/app-downloader) | Budget Ninite for Windows 10. | 
 
 ## Certificates
 ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
