@@ -9,6 +9,7 @@ I'm Tomislav, a DevOps engineer student who's still trying to figure out what De
 | [Book-Reading Dictionary](https://github.com/PapaPeskwo/dictionary) | A simple dictionary app designed for convenient use while reading. |
 | [Content Comparer](https://github.com/PapaPeskwo/content-comparer) | Compares two folders and outputs the difference. |
 | [The Gap Effect](https://github.com/PapaPeskwo/gap-effect) | A timer used while studying. |
+| [Steam Killer](https://github.com/PapaPeskwo/steam-killer) | Kills steam after 1 hour. Gaming is just a waste of time. |
 
 ## Certificates
 ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
