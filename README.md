@@ -4,7 +4,7 @@ I'm Tomislav, a DevOps engineer student who's still trying to figure out what De
 ## Projects
 | Project Name                                                        | Project Description                                                | Last Updated |
 | ------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------ |
-| [BugBusterX](https://github.com/PapaPeskwo/BugBusterX)              | Scan your shady apk downloads.                                     | 25/04/2023   | 
+| [BugBusterX](https://github.com/PapaPeskwo/BugBusterX)              | Scan your shady apk downloads.                                     | 26/04/2023   | 
 | [App Downloader](https://github.com/PapaPeskwo/app-downloader)      | Budget Ninite for Windows 10.                                      | 18/04/2023   |
 | [Comparing Hashes](https://github.com/PapaPeskwo/comparing-hashes)  | Comparing Hashes - SHA-256 Checksum.                               | 25/04/2023   |
 | [Book-Reading Dictionary](https://github.com/PapaPeskwo/dictionary) | A simple dictionary app designed for convenient use while reading. | 01/04/2023   |
