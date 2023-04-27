@@ -11,6 +11,7 @@ I'm Tomislav, a DevOps engineer student who's still trying to figure out what De
 | [Content Comparer](https://github.com/PapaPeskwo/content-comparer)  | Compares two folders and outputs the difference.                   | 11/04/2023   |
 | [The Gap Effect](https://github.com/PapaPeskwo/gap-effect)          | A timer used while studying.                                       | 31/03/2023   |
 | [Steam Killer](https://github.com/PapaPeskwo/steam-killer)          | Kills steam after 1 hour. Gaming is just a waste of time.          | 16/04/2023   |
+| [Star Repos MD](https://github.com/PapaPeskwo/starred-repos-to-md)  | Fetches and organizes your GitHub favorites into a markdown table  | 27/04/2023   |
 
 ## Certificates
 ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
