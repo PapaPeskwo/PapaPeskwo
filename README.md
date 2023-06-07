@@ -9,7 +9,7 @@ I'm Tomislav, a DevOps engineer student who's still trying to figure out what De
 | [File Folder Info](https://github.com/PapaPeskwo/file-folder-info)  | Scan and output and total size of each type of file.               | 17/05/2023   |
 | [BugBusterX](https://github.com/PapaPeskwo/BugBusterX)              | Scan your shady apk downloads.                                     | 25/04/2023   | 
 | [App Downloader](https://github.com/PapaPeskwo/app-downloader)      | Budget Ninite for Windows 10.                                      | 18/04/2023   |
-| [Comparing Hashes](https://github.com/PapaPeskwo/comparing-hashes)  | Hash Verifier: Validate your file's MD5, SHA1, SHA256, and SHA512 checksums.  | 07/06/2023   |
+| [Checksum Verifier](https://github.com/PapaPeskwo/Checksum-Verifier)  | Validate your file's MD5, SHA1, SHA256, and SHA512 checksums.    | 07/06/2023   |
 | [Book-Reading Dictionary](https://github.com/PapaPeskwo/dictionary) | A simple dictionary app designed for convenient use while reading. | 01/04/2023   |
 | [Content Comparer](https://github.com/PapaPeskwo/content-comparer)  | Compares two folders and outputs the difference.                   | 11/04/2023   |
 | [The Gap Effect](https://github.com/PapaPeskwo/gap-effect)          | A timer used while studying.                                       | 31/03/2023   |
