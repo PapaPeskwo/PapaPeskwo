@@ -4,6 +4,7 @@ I'm Tomislav, a DevOps engineer student who's still trying to figure out what De
 ## Projects
 | Project Name                                                        | Project Description                                                | Last Updated: 
 | ------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------ |
+| [Block Malicious IP Addresses](https://github.com/PapaPeskwo/block-malicious-IP-addresses) | Malicious IP blocker for Windows            | 10/07/23     |
 | [Path Helper](https://github.com/PapaPeskwo/path-helper)            | A Python utility script which helps with file and directory paths across different OSs. | 07/06/2023 |
 | [Bash](https://github.com/PapaPeskwo/bash)                          | My standard settings for linux machines.                           | 31/05/2023   |
 | [File Folder Info](https://github.com/PapaPeskwo/file-folder-info)  | Scan and output the total size of each type of file.               | 17/05/2023   |
