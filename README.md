@@ -4,6 +4,7 @@ I'm Tomislav, a DevOps engineer student who's still trying to figure out what De
 ## Projects
 | Project Name                                                        | Project Description                                                | Last Updated: 
 | ------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------ |
+| [Repo Creator](https://github.com/PapaPeskwo/repo-creator)          | Initialize, commit, and push a directory to GitHub.                | 25/08/2023   |
 | [Add Security Tab Windows](https://github.com/PapaPeskwo/fix-no-security-tab-windows) | This will add the Security Tab in folder properties on Windows 10 | 17/07/2023 |
 | [Block Malicious IP Addresses](https://github.com/PapaPeskwo/block-malicious-IP-addresses) | Malicious IP blocker for Windows            | 10/07/2023     |
 | [Bash](https://github.com/PapaPeskwo/bash)                          | My standard settings for linux machines.                           | 25/08/2023   |
