@@ -5,8 +5,8 @@ on:
     branches:
       - master
   schedule:
-    # Run the job every 12 hours
-    - cron: '0 */12 * * *'
+    # Run the job every hour
+    - cron: '0 */1 * * *'
   workflow_dispatch:
 
 jobs:
