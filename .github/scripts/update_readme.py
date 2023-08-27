@@ -16,42 +16,18 @@ regex = r"\|\s*\[([^\]]+)\]\(https://github.com/([^\)]+)\)\s*\|\s*([^|]+)\s*\|\s
 with open("README.md", "r") as file:
     content = file.read()
 
-# Extract the projects section from the README
-projects_start = content.index("## Projects")
-projects_end = max([m.end() for m in re.finditer(regex, content)])
-
-projects_section = content[projects_start:projects_end]
-
-# Collect all repository details in a list
-repos = []
-
-for match in re.finditer(regex, projects_section):
-    repo_url, repo_fullname, description, _ = match.groups()
+new_content = content
+for match in re.finditer(regex, content):
+    repo_url, repo_fullname, description, date = match.groups()
     repo_api_url = f"https://api.github.com/repos/{repo_fullname}/commits/master"
     response = requests.get(repo_api_url, headers=headers)
     response.raise_for_status()
     last_updated = response.json()["commit"]["committer"]["date"]
-    formatted_date = "/".join(reversed(last_updated.split("T")[0].split("-")))
+    last_updated_date = last_updated.split("T")[0]
+    formatted_date = "/".join(reversed(last_updated_date.split("-")))
 
-    repos.append({
-        "repo_url": repo_url,
-        "repo_fullname": repo_fullname,
-        "description": description,
-        "formatted_date": formatted_date,
-        "last_updated": last_updated
-    })
-
-# Sort the repositories based on the last_updated time
-sorted_repos = sorted(repos, key=lambda x: x["last_updated"], reverse=True)
-
-# Construct the new projects section
-new_projects = "## Projects\n| Project Name | Project Description | Last Updated: |\n| --- | --- | --- |\n"
-for repo in sorted_repos:
-    new_line = f"| [{repo['repo_url']}]({repo['repo_fullname']}) | {repo['description']} | {repo['formatted_date']} |\n"
-    new_projects += new_line
-
-# Replace the old projects section with the new one
-new_content = content.replace(projects_section, new_projects)
+    new_line = f"| [{repo_url}](https://github.com/{repo_fullname}) | {description} | {formatted_date} |"
+    new_content = new_content.replace(match.group(0), new_line)
 
 # Overwrite README if there are changes
 if new_content != content:
