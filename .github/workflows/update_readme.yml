@@ -4,6 +4,7 @@ on:
   schedule:
     # Run the job every day at midnight
     - cron: '*/1 * * * *'
+  workflow_dispatch:
 
 jobs:
   update-readme:
