@@ -17,6 +17,8 @@ with open("README.md", "r") as file:
     content = file.read()
 
 # Extract the projects section from the README
+projects_start = content.index("## Projects")
+
 matches = list(re.finditer(regex, content))
 
 if not matches:
