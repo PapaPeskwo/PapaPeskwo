@@ -1,0 +1,31 @@
+name: Update README
+
+on:
+  push:
+    branches:
+      - auto-update-date
+  schedule:
+    # Run the job every 12 hours
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.GH_TOKEN }}
+
+    - name: Update Last Updated Date in README
+      run: python .github/scripts/update_readme.py ${{ secrets.GH_TOKEN }}
+      
+    - name: Commit and push if changed
+      run: |
+        git diff
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit -am "Update README last updated date" || echo "No changes to commit"
+        git push
