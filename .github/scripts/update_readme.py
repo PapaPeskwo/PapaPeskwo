@@ -47,7 +47,7 @@ sorted_repos = sorted(repos, key=lambda x: x["last_updated"], reverse=True)
 # Construct the new projects section
 new_projects = "## Projects\n| Project Name | Project Description | Last Updated: |\n| --- | --- | --- |\n"
 for repo in sorted_repos:
-    new_line = f"| [{repo['repo_url']}]({repo['repo_fullname']}) | {repo['description']} | {repo['formatted_date']} |\n"
+    new_line = f"| [{repo_url}](https://github.com/{repo_fullname}) | {description} | {formatted_date} |"
     new_projects += new_line
 
 # Replace the old projects section with the new one
