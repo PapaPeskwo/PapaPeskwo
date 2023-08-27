@@ -5,8 +5,8 @@ on:
     branches:
       - auto-update-date
   schedule:
-    # Run the job every minute
-    - cron: '*/1 * * * *'
+    # Run the job every 12 hours
+    - cron: '0 */12 * * *'
   workflow_dispatch:
 
 jobs:
