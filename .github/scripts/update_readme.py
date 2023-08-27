@@ -17,8 +17,14 @@ with open("README.md", "r") as file:
     content = file.read()
 
 # Extract the projects section from the README
-projects_start = content.index("## Projects")
-projects_end = max([m.end() for m in re.finditer(regex, content)])
+matches = list(re.finditer(regex, content))
+
+if not matches:
+    print("No project entries found.")
+    projects_end = content.index("## Certificates")  # or wherever your projects section typically ends
+else:
+    projects_end = max([m.end() for m in matches])
+
 
 projects_section = content[projects_start:projects_end]
 
@@ -47,7 +53,7 @@ sorted_repos = sorted(repos, key=lambda x: x["last_updated"], reverse=True)
 # Construct the new projects section
 new_projects = "## Projects\n| Project Name | Project Description | Last Updated: |\n| --- | --- | --- |\n"
 for repo in sorted_repos:
-    new_line = f"| [{repo_url}](https://github.com/{repo_fullname}) | {description} | {formatted_date} |"
+    new_line = f"| [{repo['repo_url']}](https://github.com/{repo['repo_fullname']}) | {repo['description']} | {repo['formatted_date']} |\n"
     new_projects += new_line
 
 # Replace the old projects section with the new one
