@@ -19,7 +19,6 @@ I'm Tomislav, a DevOps engineer student who's still trying to figure out what De
 | [Book-Reading Dictionary](PapaPeskwo/dictionary) | A simple dictionary app designed for convenient use while reading.                                                                                                                                                                 | 01/04/2023 |
 | [The Gap Effect](PapaPeskwo/gap-effect) | A timer used while studying.                                                                                                                                                                                                       | 31/03/2023 |
 
-
 ## Certificates
 ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
 
