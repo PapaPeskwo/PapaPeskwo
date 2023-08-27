@@ -3,7 +3,7 @@ name: Update README
 on:
   push:
     branches:
-      - auto-update-date
+      - master
   schedule:
     # Run the job every 12 hours
     - cron: '0 */12 * * *'
