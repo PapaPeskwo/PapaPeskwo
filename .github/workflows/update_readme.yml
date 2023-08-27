@@ -1,9 +1,8 @@
-ename: Update README
+name: Update README
 
 on:
   push:
     branches:
-      - master
       - i-believe
   schedule:
     # Run the job every hour
