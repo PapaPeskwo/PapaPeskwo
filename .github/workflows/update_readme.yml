@@ -1,9 +1,10 @@
-name: Update README
+ename: Update README
 
 on:
   push:
     branches:
       - master
+      - i-believe
   schedule:
     # Run the job every hour
     - cron: '0 */1 * * *'
