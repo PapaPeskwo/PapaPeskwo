@@ -3,7 +3,7 @@ name: Update README
 on:
   push:
     branches:
-      - master
+      - link-fix
   schedule:
     # Run the job every hour
     - cron: '0 */1 * * *'
