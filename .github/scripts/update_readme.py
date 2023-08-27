@@ -18,7 +18,8 @@ with open("README.md", "r") as file:
 
 # Extract the projects section from the README
 projects_start = content.index("## Projects")
-projects_end = content.index("##", projects_start + 1)
+projects_end = max([m.end() for m in re.finditer(regex, content)])
+
 projects_section = content[projects_start:projects_end]
 
 # Collect all repository details in a list
