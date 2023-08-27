@@ -59,7 +59,7 @@ for repo in sorted_repos:
     new_projects += new_line
 
 # Replace the old projects section with the new one
-new_content = content.replace(projects_section, new_projects)
+new_content = content[:projects_start] + new_projects + content[projects_end:]
 
 # Overwrite README if there are changes
 if new_content != content:
