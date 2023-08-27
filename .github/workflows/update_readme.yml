@@ -1,6 +1,9 @@
 name: Update README
 
 on:
+  push:
+    branches:
+      - auto-update-date
   schedule:
     # Run the job every minute
     - cron: '*/1 * * * *'
